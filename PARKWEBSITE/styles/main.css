@@ -162,6 +162,22 @@ button{
   height: 64px;
 }
 
+.product-container {
+  display: flex;
+  align-items: center; /* Aligns text and image in the center */
+  gap: 20px; /* Adds space between image and text */
+}
+
+.product-image {
+    width: 400px; /* Adjust image size */
+    height: 500px;
+}
+
+
+.product-info {
+  max-width: 500px;
+}
+
 
 .row {
   display: flex; /* Enables Flexbox */
