@@ -202,7 +202,15 @@ button{
     padding: 20px;
     flex: 1;       /* Makes both boxes equal width */
   }
+
+
+  .side-by-side {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
 }
+
+
 
 .description{
   flex: 1;
