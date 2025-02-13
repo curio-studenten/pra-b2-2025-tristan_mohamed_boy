@@ -12,6 +12,7 @@
 		<TextBlock x:Name="LabelTitel" HorizontalAlignment="Left" Margin="60,60,0,0" Text="Bugs of horror" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="72"/>
 		<TextBlock x:Name="LabelKar1" HorizontalAlignment="Left" Margin="65,180,0,0" Text="Kar 1 ..." TextWrapping="Wrap" VerticalAlignment="Top" FontSize="48"/>
 		<TextBlock x:Name="LabelKar2" HorizontalAlignment="Left" Margin="65,250,0,0" Text="Kar 2 ..." TextWrapping="Wrap" VerticalAlignment="Top" FontSize="48"/>
+		<TextBlock x:Name="LabelKar3" HorizontalAlignment="Left" Margin="65,320,0,0" Text="Kar 3 ..." TextWrapping="Wrap" VerticalAlignment="Top" FontSize="48"/>
 		<TextBlock x:Name="LabelWachtTijd" HorizontalAlignment="Left" Margin="60,444,0,0" Text="Wachttijd:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="72"/>
 		<TextBlock x:Name="LabelWachtTijdMelding" HorizontalAlignment="Left" Margin="60,545,0,0" Text="0 minuten" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="48"/>
 		<Button x:Name="KnopUpdateInformatie" Content="Update informatie" Margin="65,762,0,0" VerticalAlignment="Top" Height="60" Width="454" Click="KnopUpdateInformatie_Click"/>
