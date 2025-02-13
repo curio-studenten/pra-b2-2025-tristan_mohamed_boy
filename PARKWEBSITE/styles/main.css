@@ -226,6 +226,13 @@ footer{
   text-align: center;
 }
 
+
+/* ticket 9 */
+@media (max-width: 480px) {
+  .hidden-on-lg {
+      display: block; 
+  }
+
 .hidden-on-lg{
   display: none;
 }
