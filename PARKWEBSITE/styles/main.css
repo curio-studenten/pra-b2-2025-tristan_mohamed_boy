@@ -239,29 +239,29 @@ footer{
   Bron: https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488
 */
 
-@media (max-width: 480px) {
-
-}
-
-/* 
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-*/
-
 @media (max-width: 1024px) {
-  .logo{
+  .logo {
     margin: 0 auto;
     width: 256px;
+    display: block; 
   }
 
-  .row{
+  .row {
     flex-direction: column;
-  }
-  .sidy-by-side{
-    flex-direction: column;
+    display: flex;
     align-items: center;
   }
-}
+
+  .sidy-by-side {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+ 
+
+
 
 /*
   help! Het lettertype wordt om een of andere reden niet goed geladen... Misschien heeft het iets met het pad naar de fonts te maken?
